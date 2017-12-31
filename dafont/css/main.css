@@ -1,0 +1,28 @@
+body {
+  background-color: tomato;
+}
+/*how to chang the font from dafont.com
+go to the website downlode the font put it in your folder
+serch in google w3school include font.ttf
+we took this element
+@font-face {
+    font-family: staywildy;
+    src: url("../fonts/StayWildy.ttf");
+}
+and take this element too
+div {
+    font-family: staywildy;
+}
+we can change the div for any element we want
+chang the font-family for the one we have the font name,
+src put our path where the is font all this to make the fonte 
+clear on the computer
+after that we can apply it on any element we want  */
+@font-face {
+    font-family: staywildy;
+    src: url("../fonts/StayWildy.ttf");
+}
+div {
+    font-family: staywildy;
+    font-size: 60px;
+}
